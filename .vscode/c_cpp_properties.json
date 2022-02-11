@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "C:/Program Files/MinGW/bin",
+                "C:/Program Files/MinGW/lib/gcc",
+                "C:/Program Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compilerPath": "C:/Program Files/MinGW/bin/gcc.exe",
+            "defines": [],
+            "macFrameworkPath": [],
+            "forcedInclude": [],
+            "compilerArgs": [],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

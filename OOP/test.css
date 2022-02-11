@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url("bag.png");
+    background-repeat: no-repeat;
+    
+    background-attachment: scroll;
+    background-size: cover; */
+    /* font-size: 2vw; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subtitle{
+    /* display:none; */
+    visibility:hidden;
+}
+#TieuDe{
+    color:red;
+    position:relative;
+    padding:100px;
+    z-index:0;
+    background: blue;
+    border-radius:0px 50px ;
+}
+#main{
+    height:5000px;
+}
+
+a:hover {
+ color: rgb(216, 0, 0);
+ text-decoration :none ;
+
+
+}
+a:visited {
+    color: rgb(0, 216, 11);
+    text-decoration :none ;
+   
+   }
+   a:active {
+    color: rgb(0, 14, 216);
+    text-decoration : none;
+   
+   }
+   a:link {
+    color: rgb(0, 14, 216);
+    text-decoration :none ;
+   
+   }
+table,th,td{
+       border: 3px dotted rgb(255, 0, 0);
+       border-collapse: collapse;
+       border-radius:10px;
+       /* border-spacing: 30px;
+        */
+        /* border-spacing:20px; */
+    }
+    td,th {
+        padding: 10px
+    }
+iframe{
+    width: 100%;
+    height: auto;
+    border:2px solid rgb(7, 218, 255);
+}
+form{
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px;
+}
+input{
+    padding: 5px;
+}
+button{
+    padding:10px;
+   
+}
+button:hover{
+    transform: scale(1.2);
+   
+}

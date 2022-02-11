@@ -1,0 +1,14 @@
+{
+  "name": "da_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss": "node-sass scss/main.scss index.css -w"
+  },
+  "author": "longnhat",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

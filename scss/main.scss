@@ -1,0 +1,74 @@
+$color-primary:rgb(0, 255, 34);
+$color-primaryline:blue;
+$color-primarydark:black;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#main {
+    position: relative;
+    width: 100%;
+}
+#lop1 {
+    background-color:blue;
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#main:hover #lop2 {
+    opacity: 1;
+    height:300px;
+    cursor: not-allowed;
+}
+
+#main:hover #lop1 {
+    opacity: 0;
+}
+
+#lop2 {
+    background-color: $color-primaryline;
+    height: 0%;
+    opacity: 0;
+    width: 100%;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+}
+
+p#ad2 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+p#ad1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#main2{
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+#main2 #btn {
+    margin-top: 50px;
+    /* padding: 20px; */
+    color: $color-primarydark;
+    text-align: center;
+    font-size: 50px;
+}
+#main2 #btn::after {
+    content:"\00bb";
+}
